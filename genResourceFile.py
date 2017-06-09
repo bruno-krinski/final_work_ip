@@ -34,8 +34,8 @@ def main(argv):
     if len(argv) != 4:
         print("Use mode: python genResourceFile <param1> <param2> <resource name>")
         return
-    p1 = argv[1]
-    p2 = argv[2]
+    p1 = int(argv[1])
+    p2 = int(argv[2])
     resource_name = argv[3]
     generateResourceFile(p1,p2,resource_name)
 
