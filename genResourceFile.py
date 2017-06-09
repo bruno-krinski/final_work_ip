@@ -27,7 +27,7 @@ def generateResourceFile(n, m, name):
                 resource.append(image_name + " " + label + "\n")
     random.shuffle(resource)
     resource_file = open(name, "w+")
-    for r in resources:
+    for r in resource:
         resource_file.write(str(r)+"\n")
 
 def main(argv):
