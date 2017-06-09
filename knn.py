@@ -7,8 +7,10 @@ import numpy as np
 from resources import *
 from image import Image
 from sklearn import preprocessing
+from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedShuffleSplit
 
 def knn_train(train_features, train_labels):
 
@@ -48,9 +50,9 @@ def main(argv):
             #for i in range(0, 10):
             #    rand = random.randint(1, 100)
             #    train_f ,test_f,train_l,test_l = train_test_split(data_features,
-                                                                  data_labels,
-                                                                  test_size=0.4,
-                                                                  random_state=rand)
+            #                                                      data_labels,
+            #                                                      test_size=0.4,
+            #                                                      random_state=rand)
             knn_train(data_features, data_labels)
             #    output_file.write("=========================================\n")
         else:
