@@ -28,7 +28,7 @@ def generateResourceFile(n, m, name):
     random.shuffle(resource)
     resource_file = open(name, "w+")
     for r in resource:
-        resource_file.write(str(r)+"\n")
+        resource_file.write(str(r))
 
 def main(argv):
     if len(argv) != 4:
