@@ -10,7 +10,7 @@ from sklearn import preprocessing
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 
-def knn_train(train_features, train_labels, test_features, test_labels,output_file):
+def knn_train(train_features, train_labels):
 
     k = [1,3,5,7,9]
 
@@ -42,21 +42,21 @@ def main(argv):
         data_features, data_labels = readData(d)
         min_max_scaler = preprocessing.MinMaxScaler()
         data_features = min_max_scaler.fit_transform(data_features)
-        output_file_name = "knn_" + d
-        output_file = open(output_file_name,"w+")
+        #output_file_name = "knn_" + d
+        #output_file = open(output_file_name,"w+")
         if mode == "train":
-            for i in range(0, 10):
-                rand = random.randint(1, 100)
-                train_f ,test_f,train_l,test_l = train_test_split(data_features,
+            #for i in range(0, 10):
+            #    rand = random.randint(1, 100)
+            #    train_f ,test_f,train_l,test_l = train_test_split(data_features,
                                                                   data_labels,
                                                                   test_size=0.4,
                                                                   random_state=rand)
-                knn_train(train_f, train_l, test_f, test_l,output_file)
-                output_file.write("=========================================\n")
+            knn_train(data_features, data_labels)
+            #    output_file.write("=========================================\n")
         else:
             knn_test()
             #knn_test(train_f, train_l, test_f, test_l,output_file)
-        output_file.close()
+        #output_file.close()
 
 if __name__ == "__main__":
     main(sys.argv)

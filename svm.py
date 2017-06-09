@@ -65,7 +65,7 @@ def main(argv):
         else:
             #svm_test(train_f, train_l, test_f, test_l,output_file)
             svm_test()
-        output_file.close()
+        #output_file.close()
 
 if __name__ == "__main__":
     main(sys.argv)
