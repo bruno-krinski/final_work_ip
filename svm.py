@@ -12,10 +12,10 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedShuffleSplit
 
-def svm_train(train_features,train_labels,test_features,test_labels,output_file):
+def svm_train(train_features,train_labels):
 
     C_range = 2. ** np.arange(-8, 9, 2)
-    kernels = ['linear', 'poly', 'rbf', 'sigmoid', 'precomputed']
+    kernels = ['linear', 'poly', 'rbf', 'sigmoid']
     degrees = [2,3,4]
     gamma_range = 2. ** np.arange(8, -9, -2)
     decision_type = ['ovo', 'ovr', 'None']
@@ -31,7 +31,7 @@ def svm_train(train_features,train_labels,test_features,test_labels,output_file)
 
     svm = GridSearchCV(SVC(),params,n_jobs=-1,cv=cv).fit(train_features, train_labels)
 
-    print("The best parameters are %s with a score of %0.2f"%(grid.best_params_, grid.best_score_))
+    print("The best parameters are %s with a score of %0.2f"%(svm.best_params_, svm.best_score_))
     #output_file.write(str(clf.best_params_)+"\n")
     #result = clf.predict(test_features)
     #printResult(test_labels, result, output_file)
@@ -51,8 +51,8 @@ def main(argv):
         data_features, data_labels = readData(d)
         min_max_scaler = preprocessing.MinMaxScaler()
         data_features = min_max_scaler.fit_transform(data_features)
-        output_file_name = "svm_" + d
-        output_file = open(output_file_name,"w+")
+        #output_file_name = "svm_" + d
+        #output_file = open(output_file_name,"w+")
         if mode == "train":
             #for i in range(0, 10):
             #    rand = random.randint(1, 100)
@@ -60,7 +60,7 @@ def main(argv):
             #                                                      data_labels,
             #                                                      test_size=0.4,
             #                                                      random_state=rand)
-            svm_train(train_f, train_l, test_f, test_l,output_file)
+            svm_train(data_features, data_labels)
             #    output_file.write("=========================================\n")
         else:
             #svm_test(train_f, train_l, test_f, test_l,output_file)

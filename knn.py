@@ -12,13 +12,20 @@ from sklearn.model_selection import train_test_split
 
 def knn_train(train_features, train_labels, test_features, test_labels,output_file):
 
-    parameters = {'n_neighbors': [1,3,5,7,9]}
+    k = [1,3,5,7,9]
 
-    knn = KNeighborsClassifier()
-    clf = GridSearchCV(knn, parameters,n_jobs=4).fit(train_features, train_labels)
-    output_file.write(str(clf.best_params_)+"\n")
-    result = knn.predict(test_features)
-    printResult(test_labels, result, output_file)
+    params = {'n_neighbors':k}
+
+    rand = random.randint(1, 100)
+    cv = StratifiedShuffleSplit(n_splits=10,test_size=0.4,random_state=rand)
+
+    knn = GridSearchCV(KNeighborsClassifier(),params,n_jobs=-1,cv=cv).fit(train_features, train_labels)
+
+    print("The best parameters are %s with a score of %0.2f"%(knn.best_params_, knn.best_score_))
+
+    #output_file.write(str(clf.best_params_)+"\n")
+    #result = knn.predict(test_features)
+    #printResult(test_labels, result, output_file)
 
 #def knn_test(train_features, train_labels, test_features, test_labels,output_file):
 def knn_test():
