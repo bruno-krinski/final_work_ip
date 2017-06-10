@@ -11,6 +11,7 @@ from skimage.feature import greycomatrix, greycoprops
 def glcm(image, distances, angles, levels, method):
     my_glcm = greycomatrix(image,distances,angles,levels=levels,normed=True,
                                                                 symmetric=True)
+
     return greycoprops(my_glcm, method)
 
 def main(argv):
@@ -26,10 +27,10 @@ def main(argv):
 
     distances = [[1],[1,2],[1,2,3],[1,2,3,4]]
 
-    i = 0
+    i = 1
     images = readImages(in_file)
     for dists in distances:
-        output_file_name = "glcm_" + str(i) + "_" + type
+        output_file_name = "glcm_" + str(i) + "_" + out_file
         output_file = open(output_file_name, "w+")
         for image in images:
             img = cv2.imread(images_path + "/" + image.name, 0)
@@ -40,7 +41,8 @@ def main(argv):
                 for f in image.features:
                     aux = np.concatenate((aux,f),axis=0)
                 tot = np.concatenate((tot,aux),axis=0)
-                writeFeatures(image.label, tot, output_file)
+            #print(len(tot))
+            writeFeatures(image.label, tot, output_file)
         output_file.close()
         i += 1
 
