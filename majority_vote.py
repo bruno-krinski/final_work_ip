@@ -9,6 +9,7 @@ from resources import *
 from image import Image
 from sklearn.svm import SVC
 from sklearn import preprocessing
+from sklearn.ensemble import VotingClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
@@ -28,9 +29,9 @@ def vote_train(train_features,train_labels,out_file):
     mlp = MLPClassifier(max_iter=10000)
     svm = SVC()
 
-    vote = VotingClassifier(estimators=[('knc', clf1),
-                                        ('mlp', clf2),
-                                        ('svc', clf3)],voting='soft')
+    vote = VotingClassifier(estimators=[('knc', knn),
+                                        ('mlp', mlp),
+                                        ('svc', svm)],voting='hard')
 
     k = [1,3,5,7,9]
     activation = ['identity', 'logistic', 'tanh', 'relu']
@@ -46,14 +47,14 @@ def vote_train(train_features,train_labels,out_file):
               'mlp__activation':activation,
               'mlp__solver':solver,
               'mlp__learning_rate':learning_rate,
-              'svm__C':C_range,
-              'svm__kernel':kernels,
-              'degree':degrees,
-              'gamma':gamma_range,
-              'decision_function_shape':decision_type}
+              'svc__C':C_range,
+              'svc__kernel':kernels,
+              'svc__degree':degrees,
+              'svc__gamma':gamma_range,
+              'svc__decision_function_shape':decision_type}
 
     print("Make Grid Search!")
-    grid = GridSearchCV(estimator=vote,params,n_jobs=-1)
+    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=-1)
 
     print("Validating...")
     accuracy_scores = []

@@ -4,6 +4,7 @@
 import numpy as np
 from image import Image
 import matplotlib.pyplot as plt
+from scipy.stats import wilcoxon
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import learning_curve
@@ -19,8 +20,11 @@ data = ['lbp_default_train.txt',
 
 #data = ['lbp_default_train.txt']
 
-def printResult(clf,result,labels,output_file):
+def print_list(my_list,output_file):
+    for l in my_list:
+        output_file.write(str(l)+" ")
 
+def printGridSearchResult(clf,output_file):
     output_file.write("Grid scores on development set:\n\n")
     means = clf.cv_results_['mean_test_score']
     stds = clf.cv_results_['std_test_score']
@@ -33,7 +37,7 @@ def printResult(clf,result,labels,output_file):
     output_file.write("\n\nBest score set found on development set:\n")
     output_file.write(str(clf.best_score_))
 
-    output_file.write("\n\nValidation:\n")
+def printResult(clf,result,labels,output_file):
 
     output_file.write("\nConfusion Matrix: \n")
     cm = confusion_matrix(labels,result)
@@ -51,7 +55,7 @@ def printResult(clf,result,labels,output_file):
 
     accuracy = accuracy_score(labels,result)
     output_file.write("\nAccuracy: " + str(accuracy) + "\n")
-    output_file.write("\n-------------------------------------------------\n\n")
+    output_file.write("\n-----------------------------------------------------")
     return accuracy
 
 def readData(file_name):
