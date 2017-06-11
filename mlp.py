@@ -12,7 +12,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 
-def mlp_gridSearch(train_features,train_labels,out_file):
+def mlp_gridSearch(data_features,data_labels,out_file):
 
     print("Grid Searching and Validating of",out_file)
 
@@ -20,7 +20,7 @@ def mlp_gridSearch(train_features,train_labels,out_file):
     output_file = open(output_file_name,"w+")
 
     min_max_scaler = preprocessing.MinMaxScaler()
-    train_features = min_max_scaler.fit_transform(train_features)
+    data_features = min_max_scaler.fit_transform(data_features)
 
     print("Results in ",output_file_name)
 
