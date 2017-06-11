@@ -79,7 +79,7 @@ def main(argv):
         #bar = progressbar.ProgressBar()
         for d in data:
             data_features, data_labels = readData(d)
-            mlp_train(data_features,data_labels,d)
+            mlp_gridSearch(data_features,data_labels,d)
     else:
         mlp_test()
 
