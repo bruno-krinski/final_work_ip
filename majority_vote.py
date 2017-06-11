@@ -60,7 +60,7 @@ def vote_gridSearch(data_features,data_labels,out_file):
                                         ('mlp', mlp),
                                         ('svc', svm)],voting='hard')
     print("Making Grid Search...")
-    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=-1)
+    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=16)
     printGridSearchResult(grid,output_file)
     vote_validation(data_features,data_labels,grid,output_file)
 
@@ -77,7 +77,7 @@ def vote_validation(data_features,data_labels,clf,output_file):
                                                        random_state=random.randint(1, 1000))
 
         knn = KNeighborsClassifier(**clf.estimators[0].best_params_)
-        mlp = MLPClassifier(**clf.estimators[1].best_params_,max_iter=10000)
+        mlp = MLPClassifier(max_iter=10000,**clf.estimators[1].best_params_)
         svm = SVC(**clf.estimators[2].best_params_)
 
         vote = VotingClassifier(estimators=[('knc', knn),
