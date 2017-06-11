@@ -16,7 +16,7 @@ def knn_gridSearch(data_features,data_labels,out_file):
 
     print("Grid Searching and Validating of",out_file)
 
-    output_file_name = "knn_" + out_file
+    output_file_name = "knn_results/knn_" + out_file
     output_file = open(output_file_name,"w+")
 
     print("Results in ",output_file_name)
@@ -49,7 +49,7 @@ def knn_validation(data_features,data_labels,clf,output_file):
                                                        random_state=random.randint(1, 100))
         knn = KNeighborsClassifier(**clf.best_params_).fit(train_f,train_l)
         r = knn.predict(val_f)
-        accuracy_scores.append(printResult(knn,r,val_l,output_file))
+        accuracy_scores.append(printResult(r,val_l,output_file))
         print("--- %s seconds ---" % (time.time() - start_time))
     print("Progress:[10/10]")
     output_file.write("\n\nValidation Results:\n")
@@ -58,8 +58,24 @@ def knn_validation(data_features,data_labels,clf,output_file):
     output_file.write("\n\nMean:"+str(m)+"\n\n")
     output_file.close()
 
-def knn_test():
-    print("test")
+def knn_test(train_features,train_labels,test_features,test_labels):
+    start_time = time.time()
+
+    print("Testing...")
+
+    output_file_name = "knn_results/knn_test.txt"
+    output_file = open(output_file_name,"w+")
+
+    knn = KNeighborsClassifier(n_neighbors=1).fit(train_features,train_labels)
+    r = knn.predict(test_features)
+
+    printResult(knn,r,val_l,output_file)
+
+    print("Results in ",output_file_name)
+
+    output_file.close()
+
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 def main(argv):
     if len(argv) != 2:
@@ -73,8 +89,13 @@ def main(argv):
         for d in data:
             data_features, data_labels = readData(d)
             knn_gridSearch(data_features, data_labels,d)
+    elif mode == "test":
+        teste_file = input("Enter the test file:")
+        train_features, train_labels = readData(d)
+        test_features, test_labels = readData(teste_file)
+        knn_test(train_features,train_labels,test_features,test_labels)
     else:
-        knn_test()
+        print("Unknown mode!")
 
 if __name__ == "__main__":
     main(sys.argv)

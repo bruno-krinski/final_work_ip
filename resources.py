@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import learning_curve
 
-data = ['lbp_default_train.txt',
+"""data = ['lbp_default_train.txt',
         'lbp_ror_train.txt',
         'lbp_uniform_train.txt',
         'lbp_nri_uniform_train.txt',
@@ -17,8 +17,8 @@ data = ['lbp_default_train.txt',
         'glcm_2_train.txt',
         'glcm_3_train.txt',
         'glcm_4_train.txt']
-
-#data = ['lbp_default_train.txt']
+"""
+data = ['lbp_default_train.txt']
 
 def print_list(my_list,output_file):
     for l in my_list:
@@ -37,7 +37,7 @@ def printGridSearchResult(clf,output_file):
     output_file.write("\n\nBest score set found on development set:\n")
     output_file.write(str(clf.best_score_))
 
-def printResult(clf,result,labels,output_file):
+def printResult(result,labels,output_file):
 
     output_file.write("\nConfusion Matrix: \n")
     cm = confusion_matrix(labels,result)
