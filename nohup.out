@@ -1,0 +1,215 @@
+Grid Searching and Validating of lbp_default_train.txt
+Results in  svm_lbp_default_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+Traceback (most recent call last):
+  File "svm.py", line 90, in <module>
+    main(sys.argv)
+  File "svm.py", line 85, in main
+    svm_gridSearch(data_features, data_labels,d)
+  File "svm.py", line 46, in svm_gridSearch
+    svm_validation(data_features,data_labels,svm,output_file)
+  File "svm.py", line 55, in svm_validation
+    train_f ,val_f,train_l,val_l = train_test_split(train_features,
+NameError: name 'train_features' is not defined
+Grid Searching and Validating of lbp_default_train.txt
+Results in  svm_lbp_default_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 0.9131910800933838 seconds ---
+Progress:[ 1 /10]
+--- 0.9422798156738281 seconds ---
+Progress:[ 2 /10]
+--- 0.9337053298950195 seconds ---
+Progress:[ 3 /10]
+--- 0.940770149230957 seconds ---
+Progress:[ 4 /10]
+--- 0.9428105354309082 seconds ---
+Progress:[ 5 /10]
+--- 0.9411153793334961 seconds ---
+Progress:[ 6 /10]
+--- 0.9376499652862549 seconds ---
+Progress:[ 7 /10]
+--- 0.9353854656219482 seconds ---
+Progress:[ 8 /10]
+--- 0.911196231842041 seconds ---
+Progress:[ 9 /10]
+--- 0.940845251083374 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of lbp_ror_train.txt
+Results in  svm_lbp_ror_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 1.4847259521484375 seconds ---
+Progress:[ 1 /10]
+--- 1.4900481700897217 seconds ---
+Progress:[ 2 /10]
+--- 1.488752841949463 seconds ---
+Progress:[ 3 /10]
+--- 1.5097038745880127 seconds ---
+Progress:[ 4 /10]
+--- 1.4891078472137451 seconds ---
+Progress:[ 5 /10]
+--- 1.4702949523925781 seconds ---
+Progress:[ 6 /10]
+--- 1.4569668769836426 seconds ---
+Progress:[ 7 /10]
+--- 1.4941215515136719 seconds ---
+Progress:[ 8 /10]
+--- 1.4988675117492676 seconds ---
+Progress:[ 9 /10]
+--- 1.485600471496582 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of lbp_uniform_train.txt
+Results in  svm_lbp_uniform_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 0.2591254711151123 seconds ---
+Progress:[ 1 /10]
+--- 0.25738000869750977 seconds ---
+Progress:[ 2 /10]
+--- 0.26102328300476074 seconds ---
+Progress:[ 3 /10]
+--- 0.2544844150543213 seconds ---
+Progress:[ 4 /10]
+--- 0.2490537166595459 seconds ---
+Progress:[ 5 /10]
+--- 0.25329017639160156 seconds ---
+Progress:[ 6 /10]
+--- 0.25582385063171387 seconds ---
+Progress:[ 7 /10]
+--- 0.2612602710723877 seconds ---
+Progress:[ 8 /10]
+--- 0.2552008628845215 seconds ---
+Progress:[ 9 /10]
+--- 0.25879335403442383 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of lbp_nri_uniform_train.txt
+Results in  svm_lbp_nri_uniform_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 0.339768648147583 seconds ---
+Progress:[ 1 /10]
+--- 0.3253161907196045 seconds ---
+Progress:[ 2 /10]
+--- 0.34068894386291504 seconds ---
+Progress:[ 3 /10]
+--- 0.33149123191833496 seconds ---
+Progress:[ 4 /10]
+--- 0.3239431381225586 seconds ---
+Progress:[ 5 /10]
+--- 0.32981109619140625 seconds ---
+Progress:[ 6 /10]
+--- 0.3246028423309326 seconds ---
+Progress:[ 7 /10]
+--- 0.3253598213195801 seconds ---
+Progress:[ 8 /10]
+--- 0.3449263572692871 seconds ---
+Progress:[ 9 /10]
+--- 0.34145069122314453 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_1_train.txt
+Results in  svm_glcm_1_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 0.7087023258209229 seconds ---
+Progress:[ 1 /10]
+--- 0.6810054779052734 seconds ---
+Progress:[ 2 /10]
+--- 0.6874423027038574 seconds ---
+Progress:[ 3 /10]
+--- 0.6742286682128906 seconds ---
+Progress:[ 4 /10]
+--- 0.7052195072174072 seconds ---
+Progress:[ 5 /10]
+--- 0.6559875011444092 seconds ---
+Progress:[ 6 /10]
+--- 0.7236526012420654 seconds ---
+Progress:[ 7 /10]
+--- 0.6455895900726318 seconds ---
+Progress:[ 8 /10]
+--- 0.6788113117218018 seconds ---
+Progress:[ 9 /10]
+--- 0.6606459617614746 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_2_train.txt
+Results in  svm_glcm_2_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 0.48960375785827637 seconds ---
+Progress:[ 1 /10]
+--- 0.463578462600708 seconds ---
+Progress:[ 2 /10]
+--- 0.47487401962280273 seconds ---
+Progress:[ 3 /10]
+--- 0.4683208465576172 seconds ---
+Progress:[ 4 /10]
+--- 0.495441198348999 seconds ---
+Progress:[ 5 /10]
+--- 0.5057046413421631 seconds ---
+Progress:[ 6 /10]
+--- 0.4728696346282959 seconds ---
+Progress:[ 7 /10]
+--- 0.46985769271850586 seconds ---
+Progress:[ 8 /10]
+--- 0.46546339988708496 seconds ---
+Progress:[ 9 /10]
+--- 0.49213337898254395 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_3_train.txt
+Results in  svm_glcm_3_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 0.6455121040344238 seconds ---
+Progress:[ 1 /10]
+--- 0.616936445236206 seconds ---
+Progress:[ 2 /10]
+--- 0.6786816120147705 seconds ---
+Progress:[ 3 /10]
+--- 0.7043533325195312 seconds ---
+Progress:[ 4 /10]
+--- 0.6585111618041992 seconds ---
+Progress:[ 5 /10]
+--- 0.7006220817565918 seconds ---
+Progress:[ 6 /10]
+--- 0.6221556663513184 seconds ---
+Progress:[ 7 /10]
+--- 0.6724503040313721 seconds ---
+Progress:[ 8 /10]
+--- 0.604407787322998 seconds ---
+Progress:[ 9 /10]
+--- 0.6943535804748535 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_4_train.txt
+Results in  svm_glcm_4_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 0.45870471000671387 seconds ---
+Progress:[ 1 /10]
+--- 0.457439661026001 seconds ---
+Progress:[ 2 /10]
+--- 0.47032904624938965 seconds ---
+Progress:[ 3 /10]
+--- 0.45099568367004395 seconds ---
+Progress:[ 4 /10]
+--- 0.4696042537689209 seconds ---
+Progress:[ 5 /10]
+--- 0.4417843818664551 seconds ---
+Progress:[ 6 /10]
+--- 0.47454404830932617 seconds ---
+Progress:[ 7 /10]
+--- 0.4532637596130371 seconds ---
+Progress:[ 8 /10]
+--- 0.4588277339935303 seconds ---
+Progress:[ 9 /10]
+--- 0.4510965347290039 seconds ---
+Progress:[10/10]

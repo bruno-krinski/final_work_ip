@@ -1,0 +1,1626 @@
+Grid scores on development set:
+
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.890 (+/-0.012) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.684 (+/-0.024) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.337 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.919 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.812 (+/-0.032) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.436 (+/-0.055) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.890 (+/-0.012) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.684 (+/-0.024) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.337 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.919 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.812 (+/-0.032) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.436 (+/-0.055) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.00390625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.231 (+/-0.035) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.141 (+/-0.026) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.012) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.766 (+/-0.031) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.231 (+/-0.035) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.463 (+/-0.068) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.141 (+/-0.026) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.116 (+/-0.007) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.924 (+/-0.035) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.014) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.231 (+/-0.035) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.527 (+/-0.063) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.141 (+/-0.026) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.124 (+/-0.006) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.231 (+/-0.035) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.141 (+/-0.026) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.012) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.766 (+/-0.031) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.231 (+/-0.035) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.463 (+/-0.068) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.141 (+/-0.026) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.116 (+/-0.007) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.924 (+/-0.035) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.014) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.231 (+/-0.035) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.527 (+/-0.063) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.141 (+/-0.026) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.124 (+/-0.006) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.017) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.015625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.561 (+/-0.032) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.478 (+/-0.063) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.386 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.253 (+/-0.024) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.930 (+/-0.027) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.561 (+/-0.032) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.833 (+/-0.035) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.478 (+/-0.063) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.554 (+/-0.052) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.386 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.169 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.253 (+/-0.024) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.561 (+/-0.032) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.913 (+/-0.015) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.478 (+/-0.063) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.647 (+/-0.049) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.386 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.173 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.253 (+/-0.024) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.561 (+/-0.032) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.478 (+/-0.063) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.386 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.253 (+/-0.024) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.930 (+/-0.027) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.561 (+/-0.032) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.833 (+/-0.035) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.478 (+/-0.063) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.554 (+/-0.052) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.386 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.169 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.253 (+/-0.024) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.561 (+/-0.032) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.913 (+/-0.015) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.478 (+/-0.063) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.647 (+/-0.049) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.386 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.173 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.253 (+/-0.024) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.0625, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.902 (+/-0.015) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.696 (+/-0.052) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.636 (+/-0.044) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.056) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.416 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.283 (+/-0.032) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.926 (+/-0.030) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.696 (+/-0.052) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.890 (+/-0.012) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.636 (+/-0.044) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.684 (+/-0.024) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.056) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.337 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.416 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.283 (+/-0.032) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.696 (+/-0.052) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.929 (+/-0.020) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.636 (+/-0.044) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.744 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.056) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.270 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.416 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.283 (+/-0.032) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.902 (+/-0.015) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.696 (+/-0.052) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.636 (+/-0.044) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.056) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.416 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.283 (+/-0.032) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.926 (+/-0.030) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.696 (+/-0.052) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.890 (+/-0.012) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.636 (+/-0.044) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.684 (+/-0.024) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.056) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.337 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.416 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.283 (+/-0.032) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.696 (+/-0.052) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.929 (+/-0.020) for {'kernel': 'poly', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.636 (+/-0.044) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.744 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.056) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.270 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.416 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.283 (+/-0.032) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 0.25, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.930 (+/-0.015) for {'kernel': 'poly', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.786 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.743 (+/-0.041) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.661 (+/-0.037) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.521 (+/-0.057) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.427 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.287 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.928 (+/-0.029) for {'kernel': 'poly', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.786 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.012) for {'kernel': 'poly', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.743 (+/-0.041) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.766 (+/-0.031) for {'kernel': 'poly', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.661 (+/-0.037) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.463 (+/-0.068) for {'kernel': 'poly', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.521 (+/-0.057) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.116 (+/-0.007) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.427 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.287 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.786 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.919 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.743 (+/-0.041) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.812 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.661 (+/-0.037) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.436 (+/-0.055) for {'kernel': 'poly', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.521 (+/-0.057) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.427 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.287 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.930 (+/-0.015) for {'kernel': 'poly', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.786 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.743 (+/-0.041) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.661 (+/-0.037) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.521 (+/-0.057) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.427 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.287 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.928 (+/-0.029) for {'kernel': 'poly', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.786 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.012) for {'kernel': 'poly', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.743 (+/-0.041) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.766 (+/-0.031) for {'kernel': 'poly', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.661 (+/-0.037) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.463 (+/-0.068) for {'kernel': 'poly', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.521 (+/-0.057) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.116 (+/-0.007) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.427 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.287 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.786 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.919 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.743 (+/-0.041) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.812 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.661 (+/-0.037) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.436 (+/-0.055) for {'kernel': 'poly', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.521 (+/-0.057) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.427 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.287 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.608 (+/-0.044) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 1.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.938 (+/-0.021) for {'kernel': 'poly', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.854 (+/-0.030) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.902 (+/-0.015) for {'kernel': 'poly', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.822 (+/-0.049) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.750 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.639 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.519 (+/-0.064) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.429 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.284 (+/-0.014) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.854 (+/-0.030) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.930 (+/-0.027) for {'kernel': 'poly', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.822 (+/-0.049) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.833 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.750 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.554 (+/-0.052) for {'kernel': 'poly', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.639 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.169 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.519 (+/-0.064) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.429 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.284 (+/-0.014) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.854 (+/-0.030) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.924 (+/-0.035) for {'kernel': 'poly', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.822 (+/-0.049) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.014) for {'kernel': 'poly', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.750 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.527 (+/-0.063) for {'kernel': 'poly', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.639 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.124 (+/-0.006) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.519 (+/-0.064) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.429 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.284 (+/-0.014) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.938 (+/-0.021) for {'kernel': 'poly', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.854 (+/-0.030) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.902 (+/-0.015) for {'kernel': 'poly', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.822 (+/-0.049) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.750 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.639 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.519 (+/-0.064) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.429 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.284 (+/-0.014) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.854 (+/-0.030) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.930 (+/-0.027) for {'kernel': 'poly', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.822 (+/-0.049) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.833 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.750 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.554 (+/-0.052) for {'kernel': 'poly', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.639 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.169 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.519 (+/-0.064) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.429 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.284 (+/-0.014) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.854 (+/-0.030) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.924 (+/-0.035) for {'kernel': 'poly', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.822 (+/-0.049) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.014) for {'kernel': 'poly', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.750 (+/-0.033) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.527 (+/-0.063) for {'kernel': 'poly', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.639 (+/-0.050) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.124 (+/-0.006) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.519 (+/-0.064) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.429 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.284 (+/-0.014) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.693 (+/-0.032) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 4.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.933 (+/-0.029) for {'kernel': 'poly', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.881 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.930 (+/-0.015) for {'kernel': 'poly', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.889 (+/-0.026) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.826 (+/-0.065) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.745 (+/-0.034) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.624 (+/-0.042) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.059) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.881 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.926 (+/-0.030) for {'kernel': 'poly', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.889 (+/-0.026) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.890 (+/-0.012) for {'kernel': 'poly', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.826 (+/-0.065) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.684 (+/-0.024) for {'kernel': 'poly', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.745 (+/-0.034) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.337 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.624 (+/-0.042) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.059) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.881 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.889 (+/-0.026) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.913 (+/-0.015) for {'kernel': 'poly', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.826 (+/-0.065) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.647 (+/-0.049) for {'kernel': 'poly', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.745 (+/-0.034) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.173 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.624 (+/-0.042) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.059) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.933 (+/-0.029) for {'kernel': 'poly', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.881 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.930 (+/-0.015) for {'kernel': 'poly', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.889 (+/-0.026) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.826 (+/-0.065) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.745 (+/-0.034) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.624 (+/-0.042) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.059) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.881 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.926 (+/-0.030) for {'kernel': 'poly', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.889 (+/-0.026) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.890 (+/-0.012) for {'kernel': 'poly', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.826 (+/-0.065) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.684 (+/-0.024) for {'kernel': 'poly', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.745 (+/-0.034) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.337 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.624 (+/-0.042) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.059) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.881 (+/-0.018) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.889 (+/-0.026) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.913 (+/-0.015) for {'kernel': 'poly', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.826 (+/-0.065) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.647 (+/-0.049) for {'kernel': 'poly', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.745 (+/-0.034) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.173 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.624 (+/-0.042) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.059) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.053) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.769 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 16.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.935 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.879 (+/-0.021) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.938 (+/-0.021) for {'kernel': 'poly', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.920 (+/-0.025) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.902 (+/-0.015) for {'kernel': 'poly', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.899 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.816 (+/-0.044) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.727 (+/-0.031) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.616 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.517 (+/-0.063) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.429 (+/-0.054) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.879 (+/-0.021) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.928 (+/-0.029) for {'kernel': 'poly', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.920 (+/-0.025) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.012) for {'kernel': 'poly', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.899 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.766 (+/-0.031) for {'kernel': 'poly', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.816 (+/-0.044) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.463 (+/-0.068) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.727 (+/-0.031) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.116 (+/-0.007) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.616 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.517 (+/-0.063) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.429 (+/-0.054) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.879 (+/-0.021) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.920 (+/-0.025) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.929 (+/-0.020) for {'kernel': 'poly', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.899 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.744 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.816 (+/-0.044) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.270 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.727 (+/-0.031) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.616 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.517 (+/-0.063) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.429 (+/-0.054) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.935 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.879 (+/-0.021) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.938 (+/-0.021) for {'kernel': 'poly', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.920 (+/-0.025) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.902 (+/-0.015) for {'kernel': 'poly', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.899 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.781 (+/-0.033) for {'kernel': 'poly', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.816 (+/-0.044) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.578 (+/-0.048) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.727 (+/-0.031) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.347 (+/-0.037) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.616 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.517 (+/-0.063) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.429 (+/-0.054) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.879 (+/-0.021) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.928 (+/-0.029) for {'kernel': 'poly', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.920 (+/-0.025) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.012) for {'kernel': 'poly', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.899 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.766 (+/-0.031) for {'kernel': 'poly', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.816 (+/-0.044) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.463 (+/-0.068) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.727 (+/-0.031) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.116 (+/-0.007) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.616 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.517 (+/-0.063) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.429 (+/-0.054) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.879 (+/-0.021) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.920 (+/-0.025) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.929 (+/-0.020) for {'kernel': 'poly', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.899 (+/-0.023) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.744 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.816 (+/-0.044) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.270 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.727 (+/-0.031) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.616 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.517 (+/-0.063) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.429 (+/-0.054) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.825 (+/-0.024) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.285 (+/-0.015) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 64.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.936 (+/-0.029) for {'kernel': 'poly', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.878 (+/-0.023) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.933 (+/-0.029) for {'kernel': 'poly', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.917 (+/-0.033) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.930 (+/-0.015) for {'kernel': 'poly', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.931 (+/-0.018) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.884 (+/-0.030) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.803 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.707 (+/-0.029) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.609 (+/-0.039) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.878 (+/-0.023) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.917 (+/-0.033) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.930 (+/-0.027) for {'kernel': 'poly', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.931 (+/-0.018) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.833 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.884 (+/-0.030) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.554 (+/-0.052) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.803 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.169 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.707 (+/-0.029) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.609 (+/-0.039) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.878 (+/-0.023) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.917 (+/-0.033) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.919 (+/-0.038) for {'kernel': 'poly', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.931 (+/-0.018) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.812 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.884 (+/-0.030) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.436 (+/-0.055) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.803 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.707 (+/-0.029) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.609 (+/-0.039) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovo', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.936 (+/-0.029) for {'kernel': 'poly', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.878 (+/-0.023) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.933 (+/-0.029) for {'kernel': 'poly', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.917 (+/-0.033) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.930 (+/-0.015) for {'kernel': 'poly', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.931 (+/-0.018) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.846 (+/-0.028) for {'kernel': 'poly', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.884 (+/-0.030) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.689 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.803 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.487 (+/-0.057) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.707 (+/-0.029) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.169 (+/-0.025) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.609 (+/-0.039) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.516 (+/-0.067) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.428 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 2}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.878 (+/-0.023) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.927 (+/-0.031) for {'kernel': 'poly', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.917 (+/-0.033) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.930 (+/-0.027) for {'kernel': 'poly', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.931 (+/-0.018) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.833 (+/-0.035) for {'kernel': 'poly', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.884 (+/-0.030) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.554 (+/-0.052) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.803 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.169 (+/-0.029) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.707 (+/-0.029) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.609 (+/-0.039) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.516 (+/-0.067) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.428 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 3}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.878 (+/-0.023) for {'kernel': 'rbf', 'gamma': 8.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.922 (+/-0.038) for {'kernel': 'poly', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.917 (+/-0.033) for {'kernel': 'rbf', 'gamma': 2.0, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.919 (+/-0.038) for {'kernel': 'poly', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.931 (+/-0.018) for {'kernel': 'rbf', 'gamma': 0.5, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.812 (+/-0.032) for {'kernel': 'poly', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.884 (+/-0.030) for {'kernel': 'rbf', 'gamma': 0.125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.436 (+/-0.055) for {'kernel': 'poly', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.803 (+/-0.043) for {'kernel': 'rbf', 'gamma': 0.03125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.707 (+/-0.029) for {'kernel': 'rbf', 'gamma': 0.0078125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.609 (+/-0.039) for {'kernel': 'rbf', 'gamma': 0.001953125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.516 (+/-0.067) for {'kernel': 'rbf', 'gamma': 0.00048828125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.877 (+/-0.030) for {'kernel': 'linear', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.107 (+/-0.003) for {'kernel': 'poly', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+0.428 (+/-0.052) for {'kernel': 'rbf', 'gamma': 0.0001220703125, 'C': 256.0, 'decision_function_shape': 'ovr', 'degree': 4}
+
+
+Best parameters set found on development set:
+{'kernel': 'poly', 'gamma': 8.0, 'C': 4.0, 'decision_function_shape': 'ovo', 'degree': 2}
+
+Best score set found on development set:
+0.937857142857
+
+Validation:
+
+Confusion Matrix: 
+ 108   0   0   0   0   0   0   1   0   0
+   0 108   0   1   0   0   1   0   0   1
+   1   0  94   0   2   0   0   0   0   0
+   0   2   0 114   0   0   3   2   0   0
+   1   4   2   0 108   0   0   0   1   0
+   0   0   1   2   0 110   0   0   1   0
+   0   6   1   1   0   0 103   0   0   1
+   0   6   0   2   0   3   2 100   0   0
+   1   0   0   0   0   1   0   0 116   0
+   0   1   2   0   0   0   3   0   0 103
+
+Accuracy: 0.95
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 114   0   0   0   0   1   0   0   0   0
+   0 107   1   1   0   0   2   0   0   0
+   0   0 111   0   4   0   3   0   0   1
+   0   1   0 115   1   0   2   2   0   0
+   0   3   7   0  78   0   0   0   0   1
+   0   0   0   2   0 111   0   1   1   0
+   0   6   0   4   0   0 114   0   0   2
+   0   0   0   3   0   2   1  97   0   0
+   2   0   2   3   0   0   0   0 102   0
+   0   0   0   1   1   0   1   0   0 109
+
+Accuracy: 0.944642857143
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 115   0   0   0   0   1   0   0   0   0
+   0 106   0   0   1   0   2   0   0   0
+   0   0 118   0   1   0   1   0   0   0
+   1   3   0 104   0   0   1   3   0   1
+   0   0   4   0 103   0   1   0   0   0
+   0   0   0   1   0 108   0   0   2   0
+   0   5   1   1   0   0  97   0   0   0
+   1   1   0   1   0   0   1 104   0   0
+   4   0   1   2   0   3   0   1 109   0
+   0   1   1   0   0   0   3   0   0 106
+
+Accuracy: 0.955357142857
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 100   0   0   0   0   1   0   0   1   0
+   0  98   0   0   0   0   5   0   0   0
+   0   0 106   0   1   1   3   0   0   0
+   0   1   0 105   0   0   0   4   0   0
+   0   1   6   0 109   0   1   0   0   0
+   1   0   0   0   0 121   0   0   1   0
+   0   6   1   2   0   0 101   0   0   1
+   0   1   0   1   0   1   3 113   0   0
+   2   0   0   0   0   0   0   0 107   0
+   0   0   1   0   0   0   1   0   1 112
+
+Accuracy: 0.957142857143
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 108   0   0   0   0   0   0   1   0   0
+   0 108   0   1   0   0   1   0   0   1
+   1   0  94   0   2   0   0   0   0   0
+   0   2   0 114   0   0   3   2   0   0
+   1   4   2   0 108   0   0   0   1   0
+   0   0   1   2   0 110   0   0   1   0
+   0   6   1   1   0   0 103   0   0   1
+   0   6   0   2   0   3   2 100   0   0
+   1   0   0   0   0   1   0   0 116   0
+   0   1   2   0   0   0   3   0   0 103
+
+Accuracy: 0.95
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 110   0   0   0   0   2   0   1   3   0
+   0 113   0   0   0   0   4   0   0   0
+   0   1 105   1   2   0   4   0   0   0
+   1   0   0 100   0   0   0   1   0   1
+   0   1   2   0 112   0   2   0   0   1
+   1   0   0   1   0 103   0   0   1   0
+   0  10   0   2   0   0  96   0   0   1
+   0   2   0   3   0   2   0 105   0   0
+   0   0   1   1   0   0   0   0 103   0
+   0   1   0   2   0   0   1   2   0 115
+
+Accuracy: 0.948214285714
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 118   0   0   0   0   0   0   1   0   0
+   0 114   0   0   0   0   1   0   0   0
+   0   0 105   0   0   0   0   0   0   0
+   1   2   0 101   0   0   2   0   0   0
+   0   0   4   1 107   0   0   0   0   1
+   1   0   0   1   0 102   0   2   0   0
+   0   3   4   2   0   0  99   0   0   0
+   0   2   0   2   0   3   0 116   0   0
+   1   0   4   2   0   0   0   0 103   0
+   0   0   0   3   1   0   0   1   1 109
+
+Accuracy: 0.958928571429
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 115   0   0   0   0   0   0   0   2   0
+   0  97   0   1   0   0   2   0   0   0
+   0   0 108   0   0   0   3   0   0   0
+   0   2   0 109   0   0   0   1   0   1
+   0   1   2   0 118   0   1   0   0   0
+   1   0   0   1   0  98   0   2   1   0
+   0   4   3   5   0   0 123   2   0   1
+   2   3   0   3   0   0   1 109   0   0
+   2   0   0   1   0   1   0   0 104   0
+   0   0   1   0   0   0   2   0   2  85
+
+Accuracy: 0.951785714286
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 119   0   0   0   0   0   0   0   0   0
+   0 105   0   0   0   0   2   0   0   0
+   0   0 100   0   0   0   2   0   0   1
+   0   0   0 101   1   0   0   0   0   0
+   3   1   6   0 105   0   0   0   0   2
+   1   0   0   0   0 117   0   1   3   0
+   0   5   3   3   0   0 101   0   0   0
+   0   0   0   4   0   2   0 125   0   0
+   1   0   0   3   0   0   0   0 106   0
+   0   0   0   2   0   0   0   0   0  95
+
+Accuracy: 0.958928571429
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 106   0   0   0   0   2   0   1   0   0
+   0 107   1   0   0   0   3   0   0   0
+   0   0 117   0   1   0   4   0   0   0
+   1   0   0 101   0   0   1   1   0   1
+   0   2   2   0 105   0   0   0   0   1
+   0   0   0   0   0 113   0   0   0   0
+   0   4   2   6   0   0  98   0   0   1
+   2   0   0   0   0   0   2 108   0   0
+   4   0   0   2   0   0   0   0 107   0
+   0   0   0   0   1   0   0   0   0 113
+
+Accuracy: 0.959821428571
+
+-----------------------------------------------------
+
+Validation Results:
+0.95 0.944642857143 0.955357142857 0.957142857143 0.95 0.948214285714 0.958928571429 0.951785714286 0.958928571429 0.959821428571 
+
+Mean:0.953482142857
+
