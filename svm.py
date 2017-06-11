@@ -41,10 +41,9 @@ def svm_gridSearch(data_features,data_labels,out_file):
               'decision_function_shape':decision_type}
 
     print("Making Grid Search...")
-    svm = GridSearchCV(SVC(),params,n_jobs=-1,cv=5)
-    svm.fit(train_f,train_l)
+    svm = GridSearchCV(SVC(),params,n_jobs=-1,cv=5).fit(train_f,train_l)
     printGridSearchResult(svm,output_file)
-    svm_validation(data_features,data_labels,knn,output_file)
+    svm_validation(data_features,data_labels,svm,output_file)
 
 def svm_validation(data_features,data_labels,clf,output_file):
     print("Validating...")

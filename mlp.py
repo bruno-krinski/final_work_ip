@@ -38,10 +38,9 @@ def mlp_gridSearch(train_features,train_labels,out_file):
               'learning_rate':learning_rate}
 
     print("Making Grid Search...")
-    mlp = GridSearchCV(MLPClassifier(max_iter=10000),params,n_jobs=-1,cv=5)
-    mlp.fit(train_f,train_l)
+    mlp = GridSearchCV(MLPClassifier(max_iter=10000),params,n_jobs=-1,cv=5).fit(train_f,train_l)
     printGridSearchResult(mlp,output_file)
-    mlp_validation(data_features,data_labels,knn,output_file)
+    mlp_validation(data_features,data_labels,mlp,output_file)
 
 def mlp_validation(data_features,data_labels,clf,output_file):
     print("Validating...")
