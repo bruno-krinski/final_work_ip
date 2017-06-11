@@ -1,0 +1,204 @@
+Grid scores on development set:
+
+0.891 (+/-0.035) for {'activation': 'identity', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.856 (+/-0.029) for {'activation': 'identity', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.893 (+/-0.019) for {'activation': 'identity', 'solver': 'adam', 'learning_rate': 'constant'}
+0.887 (+/-0.036) for {'activation': 'identity', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.101 (+/-0.031) for {'activation': 'identity', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.899 (+/-0.032) for {'activation': 'identity', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.894 (+/-0.037) for {'activation': 'identity', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.856 (+/-0.024) for {'activation': 'identity', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.891 (+/-0.026) for {'activation': 'identity', 'solver': 'adam', 'learning_rate': 'adaptive'}
+0.926 (+/-0.043) for {'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.624 (+/-0.445) for {'activation': 'logistic', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.904 (+/-0.028) for {'activation': 'logistic', 'solver': 'adam', 'learning_rate': 'constant'}
+0.929 (+/-0.016) for {'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.105 (+/-0.006) for {'activation': 'logistic', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.896 (+/-0.039) for {'activation': 'logistic', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.944 (+/-0.024) for {'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.246 (+/-0.470) for {'activation': 'logistic', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.899 (+/-0.046) for {'activation': 'logistic', 'solver': 'adam', 'learning_rate': 'adaptive'}
+0.919 (+/-0.042) for {'activation': 'tanh', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.857 (+/-0.028) for {'activation': 'tanh', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.905 (+/-0.016) for {'activation': 'tanh', 'solver': 'adam', 'learning_rate': 'constant'}
+0.934 (+/-0.032) for {'activation': 'tanh', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.096 (+/-0.090) for {'activation': 'tanh', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.891 (+/-0.032) for {'activation': 'tanh', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.936 (+/-0.018) for {'activation': 'tanh', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.861 (+/-0.024) for {'activation': 'tanh', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.901 (+/-0.036) for {'activation': 'tanh', 'solver': 'adam', 'learning_rate': 'adaptive'}
+0.925 (+/-0.019) for {'activation': 'relu', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.850 (+/-0.033) for {'activation': 'relu', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.919 (+/-0.029) for {'activation': 'relu', 'solver': 'adam', 'learning_rate': 'constant'}
+0.926 (+/-0.023) for {'activation': 'relu', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.125 (+/-0.041) for {'activation': 'relu', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.902 (+/-0.028) for {'activation': 'relu', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.930 (+/-0.029) for {'activation': 'relu', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.856 (+/-0.024) for {'activation': 'relu', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.907 (+/-0.027) for {'activation': 'relu', 'solver': 'adam', 'learning_rate': 'adaptive'}
+
+
+Best parameters set found on development set:
+{'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+
+Best score set found on development set:
+0.943571428571
+
+Validation:
+
+Confusion Matrix: 
+ 115   0   3   0   0   0   0   0   0   1
+   0  88   0   5   0   0   1   0   0   0
+   1   0  98   0   3   0   1   0   0   2
+   0   0   0 109   0   0   2   0   0   0
+   0   2   5   0 114   1   0   0   0   0
+   0   1   0   3   0 107   0   2   0   0
+   0   7   1   1   0   0 108   1   1   0
+   0   2   0   4   0   0   0 102   0   0
+   0   2   0   0   0   0   0   0 117   0
+   0   0   0   0   1   0   0   0   0 109
+
+Accuracy: 0.952678571429
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 113   0   1   0   0   0   0   0   0   1
+   0 104   0   2   0   0   3   0   0   0
+   0   0 100   0   2   0   3   0   0   1
+   0   1   0  92   0   0   4   0   0   0
+   0   3   3   0 112   0   0   0   0   1
+   0   0   0   1   0 105   2   1   0   0
+   0   3   0   3   1   0  95   1   1   1
+   1   0   0   3   0   5   0 106   0   0
+   1   0   0   3   0   0   0   0 114   0
+   0   0   2   0   0   0   0   1   0 124
+
+Accuracy: 0.950892857143
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 111   0   1   0   0   0   0   0   0   1
+   0 104   0   3   0   0   4   1   1   0
+   1   0 102   0   0   1   2   0   1   0
+   0   5   0 100   0   2   1   4   0   0
+   0   0   2   0 121   1   0   0   0   1
+   0   0   0   0   0 116   0   1   0   0
+   0   2   1   4   1   0 106   0   0   0
+   0   0   0   3   0   6   0  93   0   0
+   2   0   0   0   0   0   1   0 110   0
+   0   0   2   0   0   0   0   0   0 102
+
+Accuracy: 0.950892857143
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 112   0   5   0   0   0   0   0   0   0
+   0 104   0   1   0   0   3   2   0   0
+   1   0  94   0   1   0   3   0   0   1
+   0   3   0 108   0   0   2   0   0   0
+   0   0   2   2 111   0   0   0   0   1
+   0   0   0   0   0 106   0   2   0   0
+   0   2   1   4   0   0  97   0   1   0
+   1   3   0   1   0   2   3 104   0   0
+   1   0   0   0   0   0   3   0 105   0
+   0   1   0   0   2   0   0   0   0 125
+
+Accuracy: 0.951785714286
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 121   0   1   0   0   0   0   0   0   1
+   0 108   0   0   0   1   1   3   0   0
+   0   0  99   0   4   0   1   0   0   1
+   0   0   0 109   0   1   1   0   0   0
+   0   0   4   0 106   1   0   0   0   0
+   0   0   0   1   2 116   1   2   0   0
+   0   5   2   1   0   0 105   0   2   0
+   0   1   0   3   0   3   0 102   0   0
+   2   1   1   0   0   0   0   0  98   0
+   1   0   0   0   1   0   1   0   0 106
+
+Accuracy: 0.955357142857
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 116   0   2   0   0   0   0   0   1   0
+   0 105   0   2   2   0   5   0   1   0
+   0   0 101   0   3   0   1   0   0   0
+   0   4   0 100   0   0   2   0   0   0
+   0   0   2   0 107   1   0   0   0   3
+   0   0   0   0   0 104   0   2   0   0
+   0   4   4   2   0   1  97   0   0   0
+   0   1   0   4   1   8   3 106   0   0
+   1   0   0   0   0   0   1   0 108   0
+   1   0   2   0   0   0   0   1   0 111
+
+Accuracy: 0.941964285714
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 124   0   0   0   1   0   0   1   0   1
+   0 105   0   1   0   0   1   0   0   0
+   0   0 114   0   0   0   4   0   0   0
+   0   4   0  92   0   0   3   1   0   0
+   0   1   2   0 100   0   1   0   0   2
+   0   0   0   0   0 119   0   0   0   0
+   0   3   0   1   1   0  96   0   1   0
+   1   1   0   2   0   0   1 114   0   0
+   0   0   0   1   0   0   2   0  95   0
+   0   0   2   0   0   0   0   1   0 121
+
+Accuracy: 0.964285714286
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 106   0   0   0   0   0   0   0   1   0
+   0 117   0   1   0   0   1   2   0   0
+   0   0 111   0   0   0   2   0   0   0
+   0   2   0 108   0   0   1   0   0   0
+   0   4   1   0 109   0   0   0   0   1
+   0   0   0   2   0 102   0   1   0   0
+   0   2   2   4   0   0 102   0   0   1
+   0   1   0   1   0   5   1 104   0   0
+   1   0   1   0   0   0   3   0 110   0
+   1   0   0   0   0   0   0   2   0 107
+
+Accuracy: 0.960714285714
+
+-----------------------------------------------------
+Confusion Matrix: 
+  98   0   0   0   0   0   0   0   0   2
+   0 111   0   1   0   0   3   0   0   0
+   0   0 115   0   1   0   0   0   0   0
+   0   1   0 112   0   0   2   0   1   0
+   0   1   3   0 108   0   0   0   0   1
+   0   0   0   3   0 111   0   1   0   0
+   0   4   7   0   1   0 101   0   0   0
+   0   3   0   0   0   2   0 108   0   0
+   0   1   1   0   0   0   1   0 101   0
+   0   1   2   0   0   0   0   1   0 111
+
+Accuracy: 0.960714285714
+
+-----------------------------------------------------
+Confusion Matrix: 
+ 105   0   0   0   0   0   0   0   0   0
+   0 102   0   5   0   0   3   1   0   0
+   2   0 102   0   4   0   1   0   0   0
+   0   3   0 114   0   1   1   0   1   0
+   0   0   3   0  95   0   0   0   0   1
+   0   0   0   1   0 105   2   2   0   0
+   0   2   2   3   1   0 123   1   2   2
+   0   3   0   3   0   1   0 101   0   0
+   1   0   0   0   0   0   1   0 105   0
+   2   0   0   0   2   0   0   0   0 111
+
+Accuracy: 0.949107142857
+
+-----------------------------------------------------
+
+Validation Results:
+0.952678571429 0.950892857143 0.950892857143 0.951785714286 0.955357142857 0.941964285714 0.964285714286 0.960714285714 0.960714285714 0.949107142857 
+
+Mean:0.953839285714
+

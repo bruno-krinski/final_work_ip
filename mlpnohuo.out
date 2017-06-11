@@ -1,0 +1,200 @@
+Grid Searching and Validating of lbp_default_train.txt
+Results in  mlp_lbp_default_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 5.801171064376831 seconds ---
+Progress:[ 1 /10]
+--- 5.690885305404663 seconds ---
+Progress:[ 2 /10]
+--- 5.366780042648315 seconds ---
+Progress:[ 3 /10]
+--- 4.790035963058472 seconds ---
+Progress:[ 4 /10]
+--- 3.5954651832580566 seconds ---
+Progress:[ 5 /10]
+--- 5.377573728561401 seconds ---
+Progress:[ 6 /10]
+--- 6.286687135696411 seconds ---
+Progress:[ 7 /10]
+--- 5.4569995403289795 seconds ---
+Progress:[ 8 /10]
+--- 4.5445170402526855 seconds ---
+Progress:[ 9 /10]
+--- 4.9107444286346436 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of lbp_ror_train.txt
+Results in  mlp_lbp_ror_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 7.483159303665161 seconds ---
+Progress:[ 1 /10]
+--- 6.97863245010376 seconds ---
+Progress:[ 2 /10]
+--- 7.948293209075928 seconds ---
+Progress:[ 3 /10]
+--- 7.384113788604736 seconds ---
+Progress:[ 4 /10]
+--- 7.914219856262207 seconds ---
+Progress:[ 5 /10]
+--- 7.5126426219940186 seconds ---
+Progress:[ 6 /10]
+--- 8.91201138496399 seconds ---
+Progress:[ 7 /10]
+--- 9.995312929153442 seconds ---
+Progress:[ 8 /10]
+--- 7.008493423461914 seconds ---
+Progress:[ 9 /10]
+--- 7.1154398918151855 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of lbp_uniform_train.txt
+Results in  mlp_lbp_uniform_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 17.909263134002686 seconds ---
+Progress:[ 1 /10]
+--- 14.418047189712524 seconds ---
+Progress:[ 2 /10]
+--- 18.070362329483032 seconds ---
+Progress:[ 3 /10]
+--- 17.82073998451233 seconds ---
+Progress:[ 4 /10]
+--- 17.860023498535156 seconds ---
+Progress:[ 5 /10]
+--- 15.738239765167236 seconds ---
+Progress:[ 6 /10]
+--- 17.35912537574768 seconds ---
+Progress:[ 7 /10]
+--- 18.393545866012573 seconds ---
+Progress:[ 8 /10]
+--- 17.51274299621582 seconds ---
+Progress:[ 9 /10]
+--- 16.562947750091553 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of lbp_nri_uniform_train.txt
+Results in  mlp_lbp_nri_uniform_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 5.042134761810303 seconds ---
+Progress:[ 1 /10]
+--- 5.103056192398071 seconds ---
+Progress:[ 2 /10]
+--- 4.005302667617798 seconds ---
+Progress:[ 3 /10]
+--- 7.550701141357422 seconds ---
+Progress:[ 4 /10]
+--- 5.05689263343811 seconds ---
+Progress:[ 5 /10]
+--- 5.8683977127075195 seconds ---
+Progress:[ 6 /10]
+--- 7.353382349014282 seconds ---
+Progress:[ 7 /10]
+--- 4.852200746536255 seconds ---
+Progress:[ 8 /10]
+--- 5.807179689407349 seconds ---
+Progress:[ 9 /10]
+--- 5.5638322830200195 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_1_train.txt
+Results in  mlp_glcm_1_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 18.572436332702637 seconds ---
+Progress:[ 1 /10]
+--- 15.685656309127808 seconds ---
+Progress:[ 2 /10]
+--- 16.798282384872437 seconds ---
+Progress:[ 3 /10]
+--- 21.235273599624634 seconds ---
+Progress:[ 4 /10]
+--- 21.241442441940308 seconds ---
+Progress:[ 5 /10]
+--- 19.1275532245636 seconds ---
+Progress:[ 6 /10]
+--- 16.997978448867798 seconds ---
+Progress:[ 7 /10]
+--- 20.554702043533325 seconds ---
+Progress:[ 8 /10]
+--- 16.689554452896118 seconds ---
+Progress:[ 9 /10]
+--- 19.13191533088684 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_2_train.txt
+Results in  mlp_glcm_2_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 19.5659761428833 seconds ---
+Progress:[ 1 /10]
+--- 14.252177238464355 seconds ---
+Progress:[ 2 /10]
+--- 13.052933931350708 seconds ---
+Progress:[ 3 /10]
+--- 14.657532930374146 seconds ---
+Progress:[ 4 /10]
+--- 14.50981593132019 seconds ---
+Progress:[ 5 /10]
+--- 18.490330457687378 seconds ---
+Progress:[ 6 /10]
+--- 17.01506805419922 seconds ---
+Progress:[ 7 /10]
+--- 17.403096914291382 seconds ---
+Progress:[ 8 /10]
+--- 18.17494297027588 seconds ---
+Progress:[ 9 /10]
+--- 14.570592164993286 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_3_train.txt
+Results in  mlp_glcm_3_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 10.145856142044067 seconds ---
+Progress:[ 1 /10]
+--- 9.483357429504395 seconds ---
+Progress:[ 2 /10]
+--- 9.75414776802063 seconds ---
+Progress:[ 3 /10]
+--- 8.707309246063232 seconds ---
+Progress:[ 4 /10]
+--- 9.853291034698486 seconds ---
+Progress:[ 5 /10]
+--- 8.280418634414673 seconds ---
+Progress:[ 6 /10]
+--- 10.207631349563599 seconds ---
+Progress:[ 7 /10]
+--- 9.556196928024292 seconds ---
+Progress:[ 8 /10]
+--- 10.743200778961182 seconds ---
+Progress:[ 9 /10]
+--- 8.933941841125488 seconds ---
+Progress:[10/10]
+Grid Searching and Validating of glcm_4_train.txt
+Results in  mlp_glcm_4_train.txt
+Making Grid Search...
+Validating...
+Progress:[ 0 /10]
+--- 7.39635968208313 seconds ---
+Progress:[ 1 /10]
+--- 8.747852563858032 seconds ---
+Progress:[ 2 /10]
+--- 8.367799520492554 seconds ---
+Progress:[ 3 /10]
+--- 7.66492772102356 seconds ---
+Progress:[ 4 /10]
+--- 7.8439249992370605 seconds ---
+Progress:[ 5 /10]
+--- 7.76316237449646 seconds ---
+Progress:[ 6 /10]
+--- 7.86941123008728 seconds ---
+Progress:[ 7 /10]
+--- 7.188831806182861 seconds ---
+Progress:[ 8 /10]
+--- 8.868896484375 seconds ---
+Progress:[ 9 /10]
+--- 7.9253857135772705 seconds ---
+Progress:[10/10]
