@@ -60,7 +60,7 @@ def vote_gridSearch(data_features,data_labels,out_file):
                                         ('mlp', mlp),
                                         ('svc', svm)],voting='hard')
     print("Making Grid Search...")
-    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=16)
+    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=16,cv=5).fit(train_f,train_l)
     printGridSearchResult(grid,output_file)
     vote_validation(data_features,data_labels,grid,output_file)
 
