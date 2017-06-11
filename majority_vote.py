@@ -15,23 +15,22 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 
-def vote_train(train_features,train_labels,out_file):
+def vote_gridSearch(data_features,data_labels,out_file):
 
-    print("Training",out_file)
+    print("Grid Searching and Validating of",out_file)
 
-    output_file_name = "knn_" + out_file
+    output_file_name = "mahority_vote_" + out_file
     output_file = open(output_file_name,"w+")
 
+    print("Results in ",output_file_name)
+
     min_max_scaler = preprocessing.MinMaxScaler()
-    train_features = min_max_scaler.fit_transform(train_features)
+    data_features = min_max_scaler.fit_transform(data_features)
 
-    knn = KNeighborsClassifier()
-    mlp = MLPClassifier(max_iter=10000)
-    svm = SVC()
-
-    vote = VotingClassifier(estimators=[('knc', knn),
-                                        ('mlp', mlp),
-                                        ('svc', svm)],voting='hard')
+    train_f,val_f,train_l,val_l = train_test_split(data_features,
+                                                   data_labels,
+                                                   test_size=0.5,
+                                                   random_state=0)
 
     k = [1,3,5,7,9]
     activation = ['identity', 'logistic', 'tanh', 'relu']
@@ -53,10 +52,21 @@ def vote_train(train_features,train_labels,out_file):
               'svc__gamma':gamma_range,
               'svc__decision_function_shape':decision_type}
 
-    print("Make Grid Search!")
-    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=-1)
+    knn = KNeighborsClassifier()
+    mlp = MLPClassifier(max_iter=10000)
+    svm = SVC()
 
+    vote = VotingClassifier(estimators=[('knc', knn),
+                                        ('mlp', mlp),
+                                        ('svc', svm)],voting='hard')
+    print("Making Grid Search...")
+    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=-1)
+    printGridSearchResult(grid,output_file)
+    vote_validation(data_features,data_labels,grid,output_file)
+
+def vote_validation(data_features,data_labels,clf,output_file):
     print("Validating...")
+    output_file.write("\n\nValidation:\n")
     accuracy_scores = []
     for i in range(10):
         start_time = time.time()
@@ -64,12 +74,25 @@ def vote_train(train_features,train_labels,out_file):
         train_f,val_f,train_l,val_l = train_test_split(train_features,
                                                        train_labels,
                                                        test_size=0.4,
-                                                       random_state=random.randint(1, 100))
-        grid.fit(train_f,train_l)
-        r = grid.predict(val_f)
-        accuracy_scores.append(printResult(grid,r,val_l,output_file))
+                                                       random_state=random.randint(1, 1000))
+
+        knn = KNeighborsClassifier(**clf.estimators[0].best_params_)
+        mlp = MLPClassifier(**clf.estimators[1].best_params_,max_iter=10000)
+        svm = SVC(**clf.estimators[2].best_params_)
+
+        vote = VotingClassifier(estimators=[('knc', knn),
+                                            ('mlp', mlp),
+                                            ('svc', svm)],
+                                n_jobs=-1,
+                                voting='hard').fit(train_f,train_l)
+        r = vote.predict(val_f)
+        accuracy_scores.append(printResult(vote,r,val_l,output_file))
         print("--- %s seconds ---" % (time.time() - start_time))
-    print("Results in ",output_file_name)
+    print("Progress:[10/10]")
+    output_file.write("\n\nValidation Results:\n")
+    print_list(accuracy_scores,output_file)
+    m = sum(accuracy_scores)/10.0
+    output_file.write("\n\nMean:"+str(m)+"\n\n")
     output_file.close()
 
 def vote_test():
@@ -86,7 +109,7 @@ def main(argv):
     if mode == "train":
         for d in data:
             data_features, data_labels = readData(d)
-            vote_train(data_features, data_labels,d)
+            vote_gridSearch(data_features, data_labels,d)
     else:
         vote_test()
 

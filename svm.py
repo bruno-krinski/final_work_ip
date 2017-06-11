@@ -55,7 +55,7 @@ def svm_validation(data_features,data_labels,clf,output_file):
         train_f ,val_f,train_l,val_l = train_test_split(data_features,
                                                         data_labels,
                                                         test_size=0.4,
-                                                        random_state=random.randint(1, 100))
+                                                        random_state=random.randint(1, 1000))
         svm = SVC(**clf.best_params_).fit(train_f,train_l)
         svm.fit(train_f, train_l)
         r = svm.predict(val_f)
