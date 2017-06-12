@@ -24,7 +24,7 @@ def main(argv):
     method = ['default', 'ror', 'uniform', 'nri_uniform']
     images = readImages(in_file)
     for m in method:
-        output_file_name = 'lbp_' + m + '_' + out_file
+        output_file_name = 'lbp_files/lbp_' + m + '_' + out_file
         output_file = open(output_file_name, "w+")
         for image in images:
             img = cv2.imread(images_path + "/" + image.name, 0)

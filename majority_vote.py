@@ -17,11 +17,11 @@ from sklearn.model_selection import train_test_split
 
 def vote_gridSearch(data_features,data_labels,out_file):
 
-    print("Grid Searching and Validating of",out_file)
-
-    output_file_name = "mahority_vote_" + out_file
+    out_file = clear_name(out_file)
+    output_file_name = "majority_vote_results/majority_vote_" + out_file
     output_file = open(output_file_name,"w+")
 
+    print("Grid Searching and Validating of",out_file)
     print("Results in ",output_file_name)
 
     min_max_scaler = preprocessing.MinMaxScaler()
@@ -32,15 +32,15 @@ def vote_gridSearch(data_features,data_labels,out_file):
                                                    test_size=0.5,
                                                    random_state=0)
 
-    k = [1,3,5,7,9]
+    k = [1,3,5]
     activation = ['identity', 'logistic', 'tanh', 'relu']
     solver = ['lbfgs', 'sgd', 'adam']
     learning_rate = ['constant', 'invscaling', 'adaptive']
     C_range = 2. ** np.arange(-8, 9, 2)
-    kernels = ['linear', 'poly', 'rbf', 'sigmoid']
+    kernels = ['linear', 'poly', 'rbf']
     degrees = [2,3,4]
     gamma_range= 2. ** np.arange(3, -15, -2)
-    decision_type = ['ovo', 'ovr', 'None']
+    decision_type = ['ovo', 'ovr']
 
     params = {'knc__n_neighbors':k,
               'mlp__activation':activation,
@@ -60,13 +60,23 @@ def vote_gridSearch(data_features,data_labels,out_file):
                                         ('mlp', mlp),
                                         ('svc', svm)],voting='hard')
     print("Making Grid Search...")
-    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=16,cv=5).fit(train_f,train_l)
+    grid = GridSearchCV(estimator=vote,param_grid=params,n_jobs=16,cv=5)
+    grid.fit(train_f,train_l)
     printGridSearchResult(grid,output_file)
-    vote_validation(data_features,data_labels,grid,output_file)
+    output_file.close()
 
-def vote_validation(data_features,data_labels,clf,output_file):
+def vote_validation(data_features,data_labels,clf,out_file):
+    out_file = clear_name(out_file)
+    output_file_name = "mahority_vote_results/vote_validation_" + out_file
+    output_file = open(output_file_name,"w+")
+
     print("Validating...")
-    output_file.write("\n\nValidation:\n")
+    print("Results in ",output_file_name)
+    output_file.write("Validation:\n")
+
+    min_max_scaler = preprocessing.MinMaxScaler()
+    data_features = min_max_scaler.fit_transform(data_features)
+
     accuracy_scores = []
     for i in range(10):
         start_time = time.time()
@@ -76,17 +86,18 @@ def vote_validation(data_features,data_labels,clf,output_file):
                                                        test_size=0.4,
                                                        random_state=random.randint(1, 1000))
 
-        knn = KNeighborsClassifier(**clf.estimators[0].best_params_)
-        mlp = MLPClassifier(max_iter=10000,**clf.estimators[1].best_params_)
-        svm = SVC(**clf.estimators[2].best_params_)
+        knn = KNeighborsClassifier()
+        mlp = MLPClassifier(max_iter=10000)
+        svm = SVC()
 
         vote = VotingClassifier(estimators=[('knc', knn),
                                             ('mlp', mlp),
                                             ('svc', svm)],
-                                n_jobs=-1,
-                                voting='hard').fit(train_f,train_l)
+                                n_jobs=16,
+                                voting='hard')
+        vote.fit(train_f,train_l)
         r = vote.predict(val_f)
-        accuracy_scores.append(printResult(vote,r,val_l,output_file))
+        accuracy_scores.append(printResult(r,val_l,output_file))
         print("--- %s seconds ---" % (time.time() - start_time))
     print("Progress:[10/10]")
     output_file.write("\n\nValidation Results:\n")
@@ -95,13 +106,43 @@ def vote_validation(data_features,data_labels,clf,output_file):
     output_file.write("\n\nMean:"+str(m)+"\n\n")
     output_file.close()
 
-def vote_test():
-    print("test")
+def vote_test(train_features,train_labels,test_features,test_labels):
+    start_time = time.time()
+
+    print("Testing...")
+
+    min_max_scaler = preprocessing.MinMaxScaler()
+    train_features = min_max_scaler.fit_transform(train_features)
+    test_features = min_max_scaler.transform(test_features)
+
+    output_file_name = "majority_vote_results/mlp_test.txt"
+    output_file = open(output_file_name,"w+")
+
+    knn = KNeighborsClassifier()
+    mlp = MLPClassifier(max_iter=10000)
+    svm = SVC()
+
+    vote = VotingClassifier(estimators=[('knc', knn),
+                                        ('mlp', mlp),
+                                        ('svc', svm)],
+                            n_jobs=16,
+                            voting='hard')
+
+    vote.fit(train_features,train_labels)
+    r = vote.predict(test_features)
+
+    printResult(r,test_labels,output_file)
+
+    print("Results in ",output_file_name)
+
+    output_file.close()
+
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 def main(argv):
     if len(argv) != 2:
-        print("Use mode: python majority_vote.py <mode>")
-        print("mode = train or mode = test")
+        print("Use mode: python mahority_vote.py <mode>")
+        print("mode = train,val or test")
         return
 
     mode = argv[1]
@@ -110,8 +151,18 @@ def main(argv):
         for d in data:
             data_features, data_labels = readData(d)
             vote_gridSearch(data_features, data_labels,d)
+    elif mode == "val":
+        for d in data:
+            data_features, data_labels = readData(d)
+            vote_validation(data_features,data_labels,d)
+    elif mode == "test":
+        train_file = input("Enter the train file path: ")
+        test_file = input("Enter the test file path: ")
+        train_features, train_labels = readData(train_file)
+        test_features, test_labels = readData(test_file)
+        vote_test(train_features,train_labels,test_features,test_labels)
     else:
-        vote_test()
+        print("Unknown mode!")
 
 if __name__ == "__main__":
     main(sys.argv)

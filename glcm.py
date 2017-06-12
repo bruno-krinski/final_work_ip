@@ -30,7 +30,7 @@ def main(argv):
     i = 1
     images = readImages(in_file)
     for dists in distances:
-        output_file_name = "glcm_" + str(i) + "_" + out_file
+        output_file_name = "glcm_files/glcm_" + str(i) + "_" + out_file
         output_file = open(output_file_name, "w+")
         for image in images:
             img = cv2.imread(images_path + "/" + image.name, 0)

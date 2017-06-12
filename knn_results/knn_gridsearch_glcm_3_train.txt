@@ -1,0 +1,14 @@
+Grid scores on development set:
+
+0.716 (+/-0.046) for {'n_neighbors': 1}
+0.687 (+/-0.027) for {'n_neighbors': 3}
+0.657 (+/-0.017) for {'n_neighbors': 5}
+0.661 (+/-0.033) for {'n_neighbors': 7}
+0.649 (+/-0.043) for {'n_neighbors': 9}
+
+
+Best parameters set found on development set:
+{'n_neighbors': 1}
+
+Best score set found on development set:
+0.715714285714
