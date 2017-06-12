@@ -1,0 +1,45 @@
+Grid scores on development set:
+
+0.979 (+/-0.023) for {'activation': 'identity', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.952 (+/-0.020) for {'activation': 'identity', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.979 (+/-0.019) for {'activation': 'identity', 'solver': 'adam', 'learning_rate': 'constant'}
+0.977 (+/-0.021) for {'activation': 'identity', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.135 (+/-0.030) for {'activation': 'identity', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.981 (+/-0.011) for {'activation': 'identity', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.974 (+/-0.018) for {'activation': 'identity', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.949 (+/-0.028) for {'activation': 'identity', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.983 (+/-0.008) for {'activation': 'identity', 'solver': 'adam', 'learning_rate': 'adaptive'}
+0.966 (+/-0.026) for {'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.902 (+/-0.024) for {'activation': 'logistic', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.977 (+/-0.016) for {'activation': 'logistic', 'solver': 'adam', 'learning_rate': 'constant'}
+0.971 (+/-0.027) for {'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.101 (+/-0.008) for {'activation': 'logistic', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.976 (+/-0.015) for {'activation': 'logistic', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.965 (+/-0.019) for {'activation': 'logistic', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.901 (+/-0.020) for {'activation': 'logistic', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.975 (+/-0.012) for {'activation': 'logistic', 'solver': 'adam', 'learning_rate': 'adaptive'}
+0.967 (+/-0.014) for {'activation': 'tanh', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.946 (+/-0.028) for {'activation': 'tanh', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.984 (+/-0.010) for {'activation': 'tanh', 'solver': 'adam', 'learning_rate': 'constant'}
+0.966 (+/-0.024) for {'activation': 'tanh', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.159 (+/-0.092) for {'activation': 'tanh', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.982 (+/-0.008) for {'activation': 'tanh', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.968 (+/-0.022) for {'activation': 'tanh', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.950 (+/-0.019) for {'activation': 'tanh', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.984 (+/-0.013) for {'activation': 'tanh', 'solver': 'adam', 'learning_rate': 'adaptive'}
+0.976 (+/-0.021) for {'activation': 'relu', 'solver': 'lbfgs', 'learning_rate': 'constant'}
+0.948 (+/-0.013) for {'activation': 'relu', 'solver': 'sgd', 'learning_rate': 'constant'}
+0.981 (+/-0.016) for {'activation': 'relu', 'solver': 'adam', 'learning_rate': 'constant'}
+0.974 (+/-0.027) for {'activation': 'relu', 'solver': 'lbfgs', 'learning_rate': 'invscaling'}
+0.101 (+/-0.085) for {'activation': 'relu', 'solver': 'sgd', 'learning_rate': 'invscaling'}
+0.980 (+/-0.014) for {'activation': 'relu', 'solver': 'adam', 'learning_rate': 'invscaling'}
+0.974 (+/-0.033) for {'activation': 'relu', 'solver': 'lbfgs', 'learning_rate': 'adaptive'}
+0.948 (+/-0.033) for {'activation': 'relu', 'solver': 'sgd', 'learning_rate': 'adaptive'}
+0.982 (+/-0.015) for {'activation': 'relu', 'solver': 'adam', 'learning_rate': 'adaptive'}
+
+
+Best parameters set found on development set:
+{'activation': 'tanh', 'solver': 'adam', 'learning_rate': 'constant'}
+
+Best score set found on development set:
+0.984285714286
