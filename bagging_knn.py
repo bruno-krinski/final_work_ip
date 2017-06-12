@@ -13,44 +13,32 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 
-def bagging_knn_gridSearch(data_features,data_labels,out_file):
-
-    print("Grid Searching and Validating of",out_file)
-
-    output_file_name = bagging_knn_" + out_file
+def bagging_knn_validation(data_features,data_labels,clf,output_file):
+    out_file = clear_name(out_file)
+    output_file_name = "bagging_knn_results/knn_validation_" + out_file
     output_file = open(output_file_name,"w+")
 
+    print("Validating...")
     print("Results in ",output_file_name)
+    output_file.write("Validation:\n")
 
     min_max_scaler = preprocessing.MinMaxScaler()
     data_features = min_max_scaler.fit_transform(data_features)
 
-    train_f,val_f,train_l,val_l = train_test_split(data_features,
-                                                   data_labels,
-                                                   test_size=0.5,
-                                                   random_state=0)
-    k = [1,3,5,7,9]
-    params = {'n_neighbors':k}
-    print("Making Grid Search...")
-    bagging_knn = GridSearchCV(KNeighborsClassifier(),params,n_jobs=-1,cv=5)
-    bagging_knn.fit(train_f,train_l)
-    printGridSearchResultbagging_knn,output_file)
-    bagging_knn_validation(data_features,data_labelsbagging_knn,output_file)
-
-def bagging_knn_validation(data_features,data_labels,clf,output_file):
-    print("Validating...")
-    output_file.write("\n\nValidation:\n")
     accuracy_scores = []
     for i in range(10):
         start_time = time.time()
         print("Progress:[",i,"/10]")
         train_f,val_f,train_l,val_l = train_test_split(data_features,
-                                                       data_labels,
-                                                       test_size=0.4,
-                                                       random_state=random.randint(1, 100))
-    bagging_knn = KNeighborsClassifier(**clf.best_params_).fit(train_f,train_l)
-        r =bagging_knn.predict(val_f)
-        accuracy_scores.append(printResultbagging_knn,r,val_l,output_file))
+                                       data_labels,test_size=0.4,
+                                       random_state=random.randint(1, 1000))
+
+        bagging = BaggingClassifier(KNeighborsClassifier(n_neighbors=1),
+                                    max_samples=0.5,
+                                    max_features=0.5)
+        bagging.fit(train_f,train_l)
+        r = bagging.predict(val_f)
+        accuracy_scores.append(printResult(r,val_l,output_file))
         print("--- %s seconds ---" % (time.time() - start_time))
     print("Progress:[10/10]")
     output_file.write("\n\nValidation Results:\n")
@@ -59,23 +47,52 @@ def bagging_knn_validation(data_features,data_labels,clf,output_file):
     output_file.write("\n\nMean:"+str(m)+"\n\n")
     output_file.close()
 
-defbagging_knn_test():
-    print("test")
+def bagging_knn_test(train_features,train_labels,test_features,test_labels):
+    start_time = time.time()
+
+    print("Testing...")
+
+    min_max_scaler = preprocessing.MinMaxScaler()
+    train_features = min_max_scaler.fit_transform(train_features)
+    test_features = min_max_scaler.transform(test_features)
+
+    output_file_name = "bagging_knn_results/bagging_knn_test.txt"
+    output_file = open(output_file_name,"w+")
+
+    bagging = BaggingClassifier(KNeighborsClassifier(n_neighbors=1),
+                                max_samples=0.5,
+                                max_features=0.5)
+    bagging.fit(train_features,train_labels)
+    r = bagging.predict(test_features)
+
+    printResult(r,test_labels,output_file)
+
+    print("Results in ",output_file_name)
+
+    output_file.close()
+
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 def main(argv):
     if len(argv) != 2:
-        print("Use mode: pythonbagging_knn.py <mode>")
-        print("mode = train or mode = test")
+        print("Use mode: python bagging_knn.py <mode>")
+        print("mode = val or test")
         return
 
     mode = argv[1]
 
-    if mode == "train":
+    if mode == "val":
         for d in data:
             data_features, data_labels = readData(d)
-        bagging_knn_gridSearch(data_features, data_labels,d)
+            bagging_knn_validation(data_features,data_labels,d)
+    elif mode == "test":
+        train_file = input("Enter the train file path: ")
+        test_file = input("Enter the test file path: ")
+        train_features, train_labels = readData(train_file)
+        test_features, test_labels = readData(test_file)
+        bagging_knn_test(train_features,train_labels,test_features,test_labels)
     else:
-    bagging_knn_test()
+        print("Unknown mode!")
 
 if __name__ == "__main__":
     main(sys.argv)
