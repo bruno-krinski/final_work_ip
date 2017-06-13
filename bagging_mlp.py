@@ -9,13 +9,13 @@ from resources import *
 from image import Image
 from sklearn import preprocessing
 from sklearn.ensemble import BaggingClassifier
+from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import GridSearchCV
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 
-def bagging_mlp_validation(data_features,data_labels,clf,output_file):
+def bagging_mlp_validation(data_features,data_labels,out_file):
     out_file = clear_name(out_file)
-    output_file_name = "bagging_mlp_results/mlp_validation_" + out_file
+    output_file_name = "bagging_mlp_results/bagging_mlp_validation_" + out_file
     output_file = open(output_file_name,"w+")
 
     print("Validating...")
@@ -33,9 +33,12 @@ def bagging_mlp_validation(data_features,data_labels,clf,output_file):
                                        data_labels,test_size=0.4,
                                        random_state=random.randint(1, 1000))
 
-        bagging = BaggingClassifier(MLPClassifier(max_iter=10000),
-                                    max_samples=0.5,
-                                    max_features=0.5)
+        bagging = BaggingClassifier(MLPClassifier(max_iter=10000,
+                                                  activation='relu',
+                                                  solver='lbfgs',
+                                                  learning_rate='adaptive'),
+                                    max_samples=1.0,
+                                    max_features=1.0)
         bagging.fit(train_f,train_l)
         r = bagging.predict(val_f)
         accuracy_scores.append(printResult(r,val_l,output_file))
@@ -59,9 +62,12 @@ def bagging_mlp_test(train_features,train_labels,test_features,test_labels):
     output_file_name = "bagging_mlp_results/bagging_mlp_test.txt"
     output_file = open(output_file_name,"w+")
 
-    bagging = BaggingClassifier(MLPClassifier(max_iter=10000),
-                                max_samples=0.5,
-                                max_features=0.5)
+    bagging = BaggingClassifier(MLPClassifier(max_iter=10000,
+                                              activation='relu',
+                                              solver='lbfgs',
+                                              learning_rate='adaptive'),
+                                max_samples=1.0,
+                                max_features=1.0)
     bagging.fit(train_features,train_labels)
     r = bagging.predict(test_features)
 

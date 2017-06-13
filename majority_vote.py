@@ -65,9 +65,9 @@ def vote_gridSearch(data_features,data_labels,out_file):
     printGridSearchResult(grid,output_file)
     output_file.close()
 
-def vote_validation(data_features,data_labels,clf,out_file):
+def vote_validation(data_features,data_labels,out_file):
     out_file = clear_name(out_file)
-    output_file_name = "mahority_vote_results/vote_validation_" + out_file
+    output_file_name = "majority_vote_results/vote_validation_" + out_file
     output_file = open(output_file_name,"w+")
 
     print("Validating...")
@@ -81,14 +81,21 @@ def vote_validation(data_features,data_labels,clf,out_file):
     for i in range(10):
         start_time = time.time()
         print("Progress:[",i,"/10]")
-        train_f,val_f,train_l,val_l = train_test_split(train_features,
-                                                       train_labels,
+        train_f,val_f,train_l,val_l = train_test_split(data_features,
+                                                       data_labels,
                                                        test_size=0.4,
                                                        random_state=random.randint(1, 1000))
 
-        knn = KNeighborsClassifier()
-        mlp = MLPClassifier(max_iter=10000)
-        svm = SVC()
+        knn = KNeighborsClassifier(n_neighbors=1)
+        mlp = MLPClassifier(max_iter=10000,
+                            activation='relu',
+                            solver='lbfgs',
+                            learning_rate='adaptive')
+        svm = SVC(C=4.0,
+                  decision_function_shape='ovo',
+                  degree=2,
+                  gamma=8.0,
+                  kernel='poly')
 
         vote = VotingClassifier(estimators=[('knc', knn),
                                             ('mlp', mlp),
@@ -118,9 +125,13 @@ def vote_test(train_features,train_labels,test_features,test_labels):
     output_file_name = "majority_vote_results/mlp_test.txt"
     output_file = open(output_file_name,"w+")
 
-    knn = KNeighborsClassifier()
+    knn = KNeighborsClassifier(n_neighbors=1)
     mlp = MLPClassifier(max_iter=10000)
-    svm = SVC()
+    svm = SVC(C=4.0,
+              decision_function_shape='ovo',
+              degree=2,
+              gamma=8.0,
+              kernel='poly')
 
     vote = VotingClassifier(estimators=[('knc', knn),
                                         ('mlp', mlp),

@@ -12,6 +12,7 @@ def lbp(image, radius, num_points, method):
     my_lbp = feature.local_binary_pattern(image,num_points,radius,method=method)
     n_bins = int(my_lbp.max() + 1)
     hist,_ = np.histogram(my_lbp,normed=True,bins = n_bins,range=(0,n_bins))
+    print(len(hist))
     return hist
 
 def main(argv):
@@ -30,6 +31,7 @@ def main(argv):
             img = cv2.imread(images_path + "/" + image.name, 0)
             image.features = lbp(img,1,8,m)
             writeFeatures(image.label, image.features, output_file)
+        print("------------------------------------")
         output_file.close()
 
 if __name__ == "__main__":

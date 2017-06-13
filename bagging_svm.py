@@ -13,9 +13,9 @@ from sklearn.ensemble import BaggingClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 
-def bagging_svm_validation(data_features,data_labels,clf,output_file):
+def bagging_svm_validation(data_features,data_labels,out_file):
     out_file = clear_name(out_file)
-    output_file_name = "bagging_svm_results/svm_validation_" + out_file
+    output_file_name = "bagging_svm_results/bagging_svm_validation_" + out_file
     output_file = open(output_file_name,"w+")
 
     print("Validating...")
@@ -33,9 +33,13 @@ def bagging_svm_validation(data_features,data_labels,clf,output_file):
                                        data_labels,test_size=0.4,
                                        random_state=random.randint(1, 1000))
 
-        bagging = BaggingClassifier(SVC(),
-                                    max_samples=0.5,
-                                    max_features=0.5)
+        bagging = BaggingClassifier(SVC(C=4.0,
+                                        decision_function_shape='ovo',
+                                        degree=2,
+                                        gamma=8.0,
+                                        kernel='poly'),
+                                    max_samples=1.0,
+                                    max_features=1.0)
         bagging.fit(train_f,train_l)
         r = bagging.predict(val_f)
         accuracy_scores.append(printResult(r,val_l,output_file))
@@ -59,9 +63,13 @@ def bagging_svm_test(train_features,train_labels,test_features,test_labels):
     output_file_name = "bagging_svm_results/bagging_svm_test.txt"
     output_file = open(output_file_name,"w+")
 
-    bagging = BaggingClassifier(SVC(),
-                                max_samples=0.5,
-                                max_features=0.5)
+    bagging = BaggingClassifier(SVC(C=4.0,
+                                    decision_function_shape='ovo',
+                                    degree=2,
+                                    gamma=8.0,
+                                    kernel='poly'),
+                                max_samples=1.0,
+                                max_features=1.0)
     bagging.fit(train_features,train_labels)
     r = bagging.predict(test_features)
 

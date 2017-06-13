@@ -41,12 +41,12 @@ def svm_gridSearch(data_features,data_labels,out_file):
               'decision_function_shape':decision_type}
 
     print("Making Grid Search...")
-    svm = GridSearchCV(SVC(),params,n_jobs=16,cv=5)
+    svm = GridSearchCV(SVC(),params,n_jobs=4,cv=5)
     svm.fit(train_f,train_l)
     printGridSearchResult(svm,output_file)
     output_file.close()
 
-def svm_validation(data_features,data_labels,clf,out_file):
+def svm_validation(data_features,data_labels,out_file):
     out_file = clear_name(out_file)
     output_file_name = "svm_results/svm_validation_" + out_file
     output_file = open(output_file_name,"w+")
@@ -65,7 +65,11 @@ def svm_validation(data_features,data_labels,clf,out_file):
         train_f ,val_f,train_l,val_l = train_test_split(data_features,
                                        data_labels,test_size=0.4,
                                        random_state=random.randint(1, 1000))
-        svm = SVC()
+        svm = SVC(C=4.0,
+                  decision_function_shape='ovo',
+                  degree=2,
+                  gamma=8.0,
+                  kernel='poly')
         svm.fit(train_f,train_l)
         r = svm.predict(val_f)
         accuracy_scores.append(printResult(r,val_l,output_file))
@@ -89,7 +93,11 @@ def svm_test(train_features,train_labels,test_features,test_labels):
     output_file_name = "svm_results/svm_test.txt"
     output_file = open(output_file_name,"w+")
 
-    svm = SVC()
+    svm = SVC(C=4.0,
+              decision_function_shape='ovo',
+              degree=2,
+              gamma=8.0,
+              kernel='poly')
     svm.fit(train_features,train_labels)
     r = svm.predict(test_features)
 

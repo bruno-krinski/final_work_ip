@@ -62,7 +62,10 @@ def mlp_validation(data_features,data_labels,out_file):
         train_f ,val_f,train_l,val_l = train_test_split(data_features,
                                        data_labels,test_size=0.4,
                                        random_state=random.randint(1,1000))
-        mlp = MLPClassifier(max_iter=10000)
+        mlp = MLPClassifier(max_iter=10000,
+                            activation='relu',
+                            solver='lbfgs',
+                            learning_rate='adaptive')
         mlp.fit(train_f, train_l)
         r = mlp.predict(val_f)
         accuracy_scores.append(printResult(r,val_l,output_file))
@@ -86,7 +89,10 @@ def mlp_test(train_features,train_labels,test_features,test_labels):
     output_file_name = "mlp_results/mlp_test.txt"
     output_file = open(output_file_name,"w+")
 
-    mlp = MLPClassifier(max_iter=10000)
+    mlp = MLPClassifier(max_iter=10000,
+                        activation='relu',
+                        solver='lbfgs',
+                        learning_rate='adaptive')
     mlp.fit(train_features,train_labels)
     r = mlp.predict(test_features)
 
