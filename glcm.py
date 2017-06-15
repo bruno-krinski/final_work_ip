@@ -26,6 +26,7 @@ def main(argv):
               'ASM']
 
     distances = [[1],[1,2],[1,2,3],[1,2,3,4]]
+    #distances = [[5],[5,6]]
 
     i = 1
     images = readImages(in_file)

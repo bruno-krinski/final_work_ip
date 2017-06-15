@@ -16,7 +16,9 @@ data = ['lbp_files/lbp_default_training.txt',
         'glcm_files/glcm_1_training.txt',
         'glcm_files/glcm_2_training.txt',
         'glcm_files/glcm_3_training.txt',
-        'glcm_files/glcm_4_training.txt']
+        'glcm_files/glcm_4_training.txt',
+        'hog_files/hog_training.txt']
+#data = ['lbp_files/lbp_default_training.txt']
 
 def print_list(my_list,output_file):
     for l in my_list:
@@ -36,7 +38,7 @@ def printGridSearchResult(clf,output_file):
     output_file.write(str(clf.best_score_))
 
 def printResult(result,labels,output_file):
-    output_file.write("Confusion Matrix: \n")
+    """output_file.write("Confusion Matrix: \n")
     cm = confusion_matrix(labels,result)
     for cols in cm:
         r = ""
@@ -49,10 +51,10 @@ def printResult(result,labels,output_file):
                 r += " " + str(rows)
         r += "\n"
         output_file.write(r)
-
+        """
     accuracy = accuracy_score(labels,result)
-    output_file.write("\nAccuracy: " + str(accuracy) + "\n")
-    output_file.write("\n-------------------------------------------------\n\n")
+    #output_file.write("\nAccuracy: " + str(accuracy) + "\n")
+    #output_file.write("\n-------------------------------------------------\n\n")
     return accuracy
 
 def readData(file_name):
@@ -91,6 +93,28 @@ def clear_name(s):
         return s[10:len(s)]
     elif s[0] == 'g':
         return s[11:len(s)]
+    elif s[0] == 'h':
+        return s[10:len(s)]
     else:
         print("Unknown string!")
         exit(0)
+
+def write_dat_files(dat_list, out_file):
+    out_file.write("# results\n")
+    for d in dat_list:
+        out_file.write(str(d)+"\n")
+
+def write_mean(scores, out_file):
+    out_file.write("\n\nMean:\n")
+    m = sum(scores)/10.0
+    out_file.write(str(m))
+
+def print_wilcoxon(end_list):
+    out_file = open("wilcoxon_results.txt","w+")
+    from scipy.stats import wilcoxon
+    for i in range(len(end_list)):
+        for j in range(len(end_list)):
+            r,p = wilcoxon(end_list[i],end_list[j])
+            out_file.write(str(p) + " ")
+        out_file.write("\n")
+    out_file.close()
